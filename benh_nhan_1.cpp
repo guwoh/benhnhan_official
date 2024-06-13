@@ -193,10 +193,10 @@ void dtYTe(yTe*infor, int numOfBn)
 void displayYTe(yTe* infor, int numOfBn)
 {
     printf("\n_____________________________________________\n");
-    printf("Check thong tin y te benh nhan!\n");
+    printf("Check thong tin y te benh nhan!");
     for(int i=0; i<numOfBn; i++)
     {   
-        printf("\nThong tin lien quan den y te %d:\n",i+1);
+        printf("\n Thong tin lien quan den y te %d:\n",i+1);
         printf(" Tien su benh ly: %s",infor[i].tienBenhLy);
         if(infor[i].tienTiemChung == 0 )    printf(" Benh nhan khong co tien su su dung vaccine");
         else    printf(" Benh nhan co tien su su dung vaccine");
@@ -212,3 +212,5 @@ void displayYTe(yTe* infor, int numOfBn)
 // {
 // }
 // entry and display data of struct lichTiemChugn
+
+// hihi
