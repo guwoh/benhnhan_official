@@ -214,3 +214,4 @@ void displayYTe(yTe* infor, int numOfBn)
 // entry and display data of struct lichTiemChugn
 
 // hihi
+//haha test
