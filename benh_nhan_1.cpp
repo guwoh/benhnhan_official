@@ -38,17 +38,17 @@ typedef struct   // Lịch tiêm chủng:
     char duKien[100]; // Lịch tiêm chủng dự kiến
     char nhacNho[100]; // Nhắc nhở về các mũi tiêm sắp đến hạn
 }lichTiemChung;
-int dem=0;
-int tangDem()  // dem gan cho phan ID voi moi benh nhan duoc nhap, id duoc gan tang 1
-{
-    ++dem;
-    return dem;
-}
-int reset()    // reset dem ve 0
-{
-    dem=0;
-    return dem;
-}
+// int dem=0;
+// int tangDem()  // dem gan cho phan ID voi moi benh nhan duoc nhap, id duoc gan tang 1
+// {
+//     ++dem;
+//     return dem;
+// }
+// int reset()    // reset dem ve 0
+// {
+//     dem=0;
+//     return dem;
+// }
 // Hàm để xóa bộ đệm đầu vào
 void clear() {
     int c;
