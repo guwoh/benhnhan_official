@@ -1,7 +1,7 @@
 // trạng thái hoàn thiện của code
 1. làm hết phần nhập thông thiện:
-    thông tin cá nhân: done
-    thông tin y tế:
+    thông tin cá nhân
+    thông tin y tế
     lịch sử tiêm chủng nếu có cái này sẽ khác so với 3 thằng còn lại
     lịch sử tiêm chủng tương lai
 2. làm hết phần hiển thị thông thiện
