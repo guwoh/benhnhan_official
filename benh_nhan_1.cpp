@@ -29,7 +29,7 @@ typedef struct  // Thông tin y tế:
 }yTe;
 typedef struct   // Lịch sử tiêm chủng:
 {
-    char nameOfVeccine[100]; // Danh sách các loại vắc xin đã tiêm
+    char nameOfVaccine[100]; // Danh sách các loại vắc xin đã tiêm
     int dayT,monthT,yearT; // Ngày tiêm
     char DDT[100]; // Địa điểm tiêm
 }LichSuTiemChung;
@@ -84,7 +84,7 @@ int main()
     dtCaNhan(infor_cn,numOfBn);  // entry data of patient
     displayCaNhan(infor_cn,numOfBn);  // dis play data of patent 
     dtYTe(infor_yt,numOfBn);
-    for(int i=0; i<numOfBn; i++)
+    // for(int i=0; i<numOfBn; i++)
     for(int i=0; i<numOfBn; i++)  // note: chuyển ra hàm
     {
         if(infor_yt[i].tienTiemChung==1)
