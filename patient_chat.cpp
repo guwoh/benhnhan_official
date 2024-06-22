@@ -1,9 +1,9 @@
 /**
- * @file patient.cpp
- * @author vu hoang hiep (hiep.vh234005@sis.hust.edu.vn)
- * @brief informations of patient
+ * @file patient_chat.cpp
+ * @author your name (you@domain.com)
+ * @brief 
  * @version 0.1
- * @date 2024-06-18
+ * @date 2024-06-21
  * 
  * @copyright Copyright (c) 2024
  * 
